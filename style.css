@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    border-radius: 15px;
+}
+#header{
+    background: #CAD5E2;
+}
+.header_area{
+    display: flex;
+    padding: 80px 0;
+    align-items: center;
+}
+.header-title{
+    width: 30%;
+}
+.header_image{
+    width: 70%;
+    text-align: right;
+}
+.header_area img{
+    width: 60%;
+}
+
+/* popular_featured_items ara design */
+.popular_featured_items {
+    display: flex;
+    gap: 25px;
+    padding: 40px 0;
+}
+.single_featured_items{
+    width: 50%;
+}
+.single_featured_items img{
+    min-height: 633px;
+}
+.popular_featured_items img{
+    width: 100%;
+}
+
+.single_featured_item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+/* top_menu_area design */
+.top_menu_area {
+    text-align: center;
+}
+.main_menu_area {
+    display: flex;
+    gap: 25px;
+}
+.main_menu_area img {
+    width: 100%;
+}
+
+/* event_area design */
+.event_area{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.single_event_area img{
+    width: 100%;
+}
+.single_event_area {
+    width: 50%;
+}
+
+/* footer area design */
+footer{
+    text-align: center;
+    background: #CAD5E2;
+    padding: 15px 0;
+}
